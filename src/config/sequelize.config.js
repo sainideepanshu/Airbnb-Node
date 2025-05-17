@@ -1,4 +1,4 @@
-require('ts-node/register'); // This line enables TypeScript support
+require('ts-node/register'); // This line enables TypeScript support as sequelize does not understand the .ts file directly
 const config = require('./db.config');
 module.exports = config;
 
