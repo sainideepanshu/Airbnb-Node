@@ -28,7 +28,7 @@ npm i
 4. Create a new .env file in the root directory and add the `PORT` env variable
 
 ```
-echo PORT=3000 >> .env
+echo PORT=3000 >> .env                 --- X do not use this command,instead create .env file manually
 ```
 
 5. Start the express server
